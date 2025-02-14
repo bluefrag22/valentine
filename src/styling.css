@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.home{
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.home1 h1{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+ img{
+    width: 15rem;
+}
+
+.home1 p{
+    font-size: 15px;
+    
+}
+
+.btn1{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+   
+}
+
+.btn1:hover{
+    background-color: pink;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 4px 10px  ;
+    
+}
+
+.home2 p{
+    font-size: 0.8rem;
+    white-space: pre-wrap;
+}
+
+.home2 button{
+    width: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1.2s ease-out;
+  }
+
+.btnyes:click{
+    background-color: red;
+}
+  
